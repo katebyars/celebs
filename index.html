@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Celebs</title>
   </head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="js/jquery-3.2.1.js">
-  <link rel="stylesheet" href="js/scripts.js">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Whose your perfect celebrity match</h1>
+        <h1>Who's your perfect celebrity match?</h1>
       </div>
+      <div id="formOne">
         <select class="form-control" id="number">
           <option value="1">1</option>
           <option value="2">2</option>
@@ -24,15 +25,29 @@
           <option value="9">9</option>
           <option value="10">10</option>
         </select>
-      <select class="form-control" id="oddities">
-      <option>Mullet</option>
-      <option>Hairy feet</option>
-    </select>
-    <select class="form-control" id="shapes">
-  <option>Circles</option>
-  <option>Stars</option>
-</select>
-    </div>
+      </div>
 
+      <div id="formTwo">
+        <select class="form-control" id="oddities">
+            <option>Two</option>
+            <option>Hairy feet</option>
+        </select>
+      </div>
+
+      <div id="formThree">
+          <select class="form-control">
+              <option>Three</option>
+              <option>Stars</option>
+          </select>
+      </div>
+
+      <div id="formFour">
+          <select class="form-control">
+              <option>Four</option>
+              <option>Vanilla</option>
+          </select>
+      </div>
+
+    </div>
   </body>
 </html>
